@@ -1,0 +1,51 @@
+Lesson 1
+========
+$ grep abc lesson01.txt
+
+Lesson 1.5
+==========
+$ grep 123 lesson01.5.txt
+
+Lesson 2
+========
+$ grep "...\." lesson02.txt
+
+Lesson 3
+========
+$ grep "[cmf]an" lesson03.txt
+
+Lesson 4
+========
+$ grep "[^b]og" lesson04.txt
+
+Lesson 5
+========
+$ grep "[ABC][n-p][a-c]" lesson05.txt
+
+Lesson 6
+========
+$ grep -P "waz{2,4}up" lesson06.txt
+
+Lesson 7
+========
+$ egrep "aa+b*c+" lesson07.txt
+
+Lesson 8
+========
+$ grep -P "\d+ files? found\?" lesson08.txt
+
+Lesson 9
+========
+$ grep -P "\d+.\s+abc" lesson09.txt
+
+Lesson 10
+=========
+$ grep "^Mission: successful$" lesson10.txt
+
+Lesson 11
+=========
+$ grep "" lesson11.txt
+
+Lesson 12
+=========
+$ grep "" lesson12.txt

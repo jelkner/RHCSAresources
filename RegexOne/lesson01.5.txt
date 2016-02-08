@@ -1,0 +1,3 @@
+abc123xyz
+define "123"
+var g = 123;
